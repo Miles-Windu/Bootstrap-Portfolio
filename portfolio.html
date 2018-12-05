@@ -15,20 +15,17 @@
       <div class="row">
 
           <!-- My Name -->
-          <div class="col-md-3"></div>
-        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 text-center" 
-        style="background-color: hsl(177, 39%, 48%); 
-        color: white; height: 80px; 
-        padding-top: 20px; font-family: Georgia, Times, imes New Roman, serif; 
-        font-size: 35px;">
+          <div class="col-3 px-2"></div>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 text-center pt-2 px-0" style="background-color: hsl(177, 39%, 48%); color: white; height: 80px; font-family: Georgia, Times, imes New Roman, serif; font-size: 35px;">
            Miles Kenner
         </div>
+        <div class="col-2"></div>
 
         <!-- Anout, Contact, Portfolio nav bar -->
-        <nav class="col-sm-3 col-md-4 col-lg-2"> 
-        <a href="index.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="portfolio">Portfolio</a>
+        <nav class="ml-5 pt-3"> 
+        <a class="col-sm-1 col-md-4 col-lg-1 my-2 border-right" style="color: gray" href="index.html">About</a>
+        <a class="col-sm-1 col-md-4 col-lg-1 my-2 border-right" style="color: gray" href="contact.html">Contact</a>
+        <a class="col-sm-1 col-md-4 col-lg-1 my-2 border-right" style="color: gray" href="portfolio">Portfolio</a>
         </nav>
 
       </div>
@@ -36,20 +33,27 @@
     </header>
 
     <!-- Container for pictures -->
-    <div class="container" style="background-color: #ffffff; max-width: 980px;">
-      <div class="row">
+    <div class="container mt-5 mb-5 p-3" style="background-color: #ffffff; max-width: 950px;">
+      <div class="row pl-2" style="color:#4aaaa5; font-size: 45px; border-bottom: solid #cccccc 3px; font-family: Georgia, Times, Times New Roman, serif ">
           Portfolio
       </div>
-
+       <!-- <hr> -->
       <!-- Insert Pics -->
       <div class="row">
-          <img class="col" src="assets/images/food.jpg">
-          <img class="col" src="assets/images/games.jpg">
-          <img class="col" src="assets/images/movies.jpg .jpeg">
+          <div class="col-lg-4 mx-2 my-2 text-hide" style="background-image: url(assets/images/food.jpg); height: 165px; max-width: 270px; ">Food
+            <div class="row">
+                <div class="col-12 text-center" style="color: white; background-color:#4aaaa5;">Food</div>
+            </div>
+        </div>
+
+          <h1 class="col-lg-4 mx-2 my-2 text-hide" style="background-image: url(assets/images/Games.jpg); height: 165px; max-width: 270px;">Games</h1>
       </div>
       <div class ="row">
-          <img class="col-md-4" src="assets/images/music.jpg">
-          <img class="col-md-4" src="assets/images/sleep.jpg">
+          <h1 class="col-md-4 mx-2 my-2 text-hide" style="background-image: url(assets/images/Music.jpg); height: 165px; max-width: 270px;">Music</h1>
+          <h1 class="col-md-4 mx-2 my-2 text-hide" style="background-image: url(assets/images/sleep.jpg); height: 165px; max-width: 270px;">Sleep</h1>
+      </div>
+      <div class="row">
+         <h1 class="col-md-4 mx-2 my-2 text-hide" style="background-image: url(assets/images/movies.jpeg); height: 165px; max-width: 270px;">Movies</h1>
       </div>
     </div>
 

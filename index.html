@@ -6,39 +6,47 @@
     <title>Miles Kenner's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="reset.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Short+Stack" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- <script src="main.js"></script> -->
 </head>
-<header>
-    <div id="me" class="nav">
-        Miles Kenner
-    </div>
-    <!-- Ask why position moves when I shrink the web browser.-->
-    <div id="about" class="nav"> 
-        <a href="index.html">About</a>
-    </div>
-    <div id="portfolio" class="nav">
-       <a href="portfolio.html">Portfolio</a> 
-    </div>
-    <div id="contact" class="nav">
-        <a href="contact.html">Contact</a>
-    </div>
-   
-</header>
-<body>
-    <div class="event" id="About Me">
-        <h2>
-            About Me
-        </h2>
-        <div class="content"> 
-            <div id="selfie">
-            </div>
-            <p>Placeholder for content: Now this is a story all about how
+
+<body style="background-color: #ebe8e8">
+    <!-- Header and Nav Bar -->
+    <header class="container border-bottom" style="background-color: #ffffff; height: 80px; max-width: 100%">
+      <div class="row">
+
+          <!-- My Name -->
+          <div class="col-3 px-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center pt-2 px-0" style="background-color: hsl(177, 39%, 48%); color: white; height: 80px; font-family: Georgia, Times, imes New Roman, serif; font-size: 35px;">
+           Miles Kenner
+        </div>
+        <div class="col-2"></div>
+
+        <!-- Anout, Contact, Portfolio nav bar -->
+        <nav class="ml-5 pt-3"> 
+        <a class="col-xs-3 col-sm-1 col-md-4 col-lg-1 my-2 border-right" style="color: gray" href="index.html">About</a>
+        <a class="col-xs-3 col-sm-1 col-md-4 col-lg-1 my-2 border-right" style="color: gray" href="contact.html">Contact</a>
+        <a class="col-xs-3 col-sm-1 col-md-4 col-lg-1 my-2 border-right" style="color: gray" href="portfolio.html">Portfolio</a>
+        </nav>
+
+      </div>
+
+    <!-- Container for bio -->
+    <div class="container mt-5 mb-5 p-3" style="background-color: #ffffff; max-width: 950px; height: auto;">
+        <div class="row pl-2" style="color:#4aaaa5; font-size: 45px; border-bottom: solid #cccccc 3px; font-family: Georgia, Times, Times New Roman, serif ">
+            About Me 
+        </div>
+        <div class="row"> 
+             
+            <div class="col-12 my-3" style="font-size: 26px; color: gray">
+
+                <img src="assets/images/Selfie.jpg" class="float-left mr-3">
+                <p>Placeholder for content: Now this is a story all about how
                     My life got flipped turned upside down
                     And I'd like to take a minute, just sit right there
                     I'll tell you how I became the prince of a town called Bel-Air</p>
-            <p>In West Philadelphia born and raised
+                <p>In West Philadelphia born and raised
                     On the playground is where I spent most of my days
                     Chilling out, maxing, relaxing all cool
                     And all shooting some b-ball outside of the school
@@ -46,22 +54,29 @@
                     Started making trouble in my neighborhood
                     I got in one little fight and my mom got scared
                     And said "You're moving with your auntie and uncle in Bel-Air"</p> 
-            <p>I whistled for a cab and when it came near
+                <p>I whistled for a cab and when it came near
                     The license plate said 'Fresh' and it had dice in the mirror
                     If anything I could say that this cab was rare
                     But I thought "Nah, forget it, yo holmes, to Bel-Air!"
-             </p> 
-            <p>I pulled up to a house about seven or eight
+                 </p> 
+                 <p>I pulled up to a house about seven or eight
                 And I yelled to the cabbie "Yo holmes, smell ya later"
                 Looked at my kingdom, I was finally there
                 To sit on my throne as the Prince of Bel-Air
-            </p>        
-        </div>
+                </p>        
+            </div>
+       </div>
     </div>
-     
-         </div>
-    <div id="footer">
+   
+   <!-- Footer -->
+   <footer class="container-fluid border-top" style="background-color: #666666; height: 80px; max-width: 100%; border-top: 3px solid #4aaaa5">
+        <div class="row">
+            <div class=" col-sm-12 border-top text-center" style="color: white; padding: 20px;">
         Copyright &copy
-    </div>
+            </div>
+      </div>
+    </footer>
+
+
 </body>
 </html>

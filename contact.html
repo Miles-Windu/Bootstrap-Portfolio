@@ -3,31 +3,35 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Miles Kenner's Portfolio</title>
+    <title>Miles' Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="reset.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- <script src="main.js"></script> -->
 </head>
-<header>
-    <div id="me" class="nav">
-        Miles Kenner
-    </div>
-    <!-- Ask why position moves when I shrink the web browser.-->
-    <div id="about" class="nav"> 
-            <a href="index.html">About</a>
-        </div>
-        <div id="portfolio" class="nav">
-           <a href="portfolio.html">Portfolio</a> 
-        </div>
-        <div id="contact" class="nav">
-            <a href="contact.html">Contact</a>
-        </div>
-   
-</header>
+<body style="background-color: #ebe8e8">
+    <!-- Header and Nav Bar -->
+    <header class="container border-bottom" style="background-color: #ffffff; height: 80px; max-width: 100%">
+      <div class="row">
 
+          <!-- My Name -->
+          <div class="col-3 px-2"></div>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 text-center pt-2 px-0" style="background-color: hsl(177, 39%, 48%); color: white; height: 80px; font-family: Georgia, Times, imes New Roman, serif; font-size: 35px;">
+           Miles Kenner
+        </div>
+        <div class="col-2"></div>
 
-<body>
+        <!-- Anout, Contact, Portfolio nav bar -->
+        <nav class="ml-5 pt-3"> 
+        <a class="col-sm-1 col-md-4 col-lg-1 my-2 border-right" style="color: gray" href="index.html">About</a>
+        <a class="col-sm-1 col-md-4 col-lg-1 my-2 border-right" style="color: gray" href="contact.html">Contact</a>
+        <a class="col-sm-1 col-md-4 col-lg-1 my-2 border-right" style="color: gray" href="portfolio.html">Portfolio</a>
+        </nav>
+
+      </div>
+
+    </header>
+      <div class="container">
         <div class="event" id="contact">
                 <h2 id="Hit Me Up">
                     Contact
@@ -49,11 +53,15 @@
     
          
              </div>
-</body>
-
-
-<div id="footer">
-        Copyright &copy
+          <!-- Footer -->
+         <footer class="container-fluid border-top" style="background-color: #666666; height: 80px; max-width: 100%; border-top: 3px solid #4aaaa5">
+      <div class="row">
+        <div class=" col-sm-12 border-top text-center" style="color: white; padding: 20px;">
+       Copyright &copy
+        </div>
     </div>
-</body>
+    </footer>
+
+
+   </body>
 </html>
